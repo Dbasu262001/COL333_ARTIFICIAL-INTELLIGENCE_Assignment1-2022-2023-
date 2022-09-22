@@ -1,0 +1,27 @@
+COL333 Assignment 1
+Submitted by:
+	DHARMESWAR  BASUMATARY	(2020CS50423)
+	MOHD BILAL BIN REHMAT		(2020CS50431)
+	
+Problem Statement:
+Input: Start_String, i.e., it is the start state.
+State_Space: all possible strings, whose length is same as the length of the given string.
+
+Objective Function: Provided for the Assignment. ( We have no work to do on it)
+Goal States: State with minimum cost of the objective function.
+
+Core Idea of Algorithm:
+=> Local Beam Search, with k successors.
+
+For the Start_State  we computed 'k' best successors.
+Each Successor is a string computed by changing a character of the Start_state.(Start_state can be the successor, if the start state is the final goal state).
+Maximum Successors of a state(say N)= Length of the input string(Start state) + 1
+Now, we have k successor states(or list say S)
+Now, for each iteration:
+	Compute  the 'successors' of the each state in S, i.e., k*N
+	Out of these k*N successors we, choose only k best successors for the next iteration.
+No of iterations depends on the time we want to run the program.
+For our assignment we choose k =6 (maximum)
+No of iterations is 8 under 2sec(for the longest input provided).
+We can increase k and N if required.
+(Last test case takes around 1.7s)
