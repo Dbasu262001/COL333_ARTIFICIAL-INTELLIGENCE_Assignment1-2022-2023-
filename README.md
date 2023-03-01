@@ -1,3 +1,3 @@
-# COL333_ARTIFICIAL-INTELLIGENCE_ssignment1-2022-2023
-GO to Master branch to seee all the commits
+# COL333_ARTIFICIAL-INTELLIGENCE_Assignment1-2022-2023
+Go to Master branch to see all the commits
 
